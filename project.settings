@@ -2,7 +2,7 @@
   "ace": {
     "@guessTabSize": true,
     "@newLineMode": "unix",
-    "@tabSize": 3,
+    "@tabSize": 2,
     "@useSoftTabs": true
   },
   "build": {
