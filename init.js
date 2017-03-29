@@ -19,7 +19,8 @@ if (/-ianguerin\.c9users.io$/.test(services.c9.hostname)) {
             "git clone " + repo,
             "cp c9-workspace-setup/gitconfig .gitconfig",
             "cp c9-workspace-setup/project.settings workspace/.c9/project.settings",
-            "cd ~/workspace"
+            "cd ~/workspace",
+            "npm i -g yarn"
           ].join(" &&\\\n") + "\n");
         });
       }
