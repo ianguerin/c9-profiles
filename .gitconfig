@@ -1,0 +1,21 @@
+[user]
+    name = Ian Guerin
+    email = ianguerin@gmail.com
+[core]
+    editor = vim
+    whitespace = off
+    excludesfile = ~/.gitignore
+[advice]
+    statusuoption = false
+[color]
+    ui = true
+[push]
+    default = current
+[alias]
+  a = add
+  b = branch
+  c = commit
+  co = checkout
+  cob = checkout -b
+  s = status -s
+  la = "!git config -l | grep alias | cut -c 7-"
