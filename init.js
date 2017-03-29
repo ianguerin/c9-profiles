@@ -18,6 +18,7 @@ if (/-ianguerin\.c9users.io$/.test(services.c9.hostname)) {
             "cd ~",
             "git clone " + repo,
             "cp c9-workspace-setup/gitconfig .gitconfig",
+            "cp c9-workspace-setup/vimrc .vimrc",
             "cp c9-workspace-setup/project.settings workspace/.c9/project.settings",
             "cd ~/workspace",
             "npm i -g yarn"
