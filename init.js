@@ -1,5 +1,3 @@
-// You can access plugins via the 'services' global variable
-/*global services, plugin*/
 if (/-ianguerin\.c9users.io$/.test(services.c9.hostname)) {
   setTimeout(function() {
     services.fs.exists("~/c9-workspace-setup", function(exists) {
